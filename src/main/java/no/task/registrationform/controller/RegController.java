@@ -1,7 +1,7 @@
 package no.task.registrationform.controller;
 
 import jakarta.validation.Valid;
-import no.task.registrationform.model.NettBureauRequest;
+import no.task.registrationform.model.RegRequest;
 import no.task.registrationform.service.PostalCodeService;
 import no.task.registrationform.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/users")
-public class NettBureauController {
+public class RegController {
 
     @Autowired
     private PostalCodeService service;
@@ -22,7 +22,7 @@ public class NettBureauController {
     private UserInfoService userInfoService;
 
     @PostMapping("/form-data")
-    public ResponseEntity<String> createUser(@RequestBody @Valid NettBureauRequest request) {
+    public ResponseEntity<String> createUser(@RequestBody @Valid RegRequest request) {
 
         boolean isValidPostalCode = service.validatePostalCode(request.getCountry(), request.getPostalCode());
         if (isValidPostalCode) {

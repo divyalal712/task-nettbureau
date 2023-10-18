@@ -2,7 +2,7 @@ package no.task.registrationform.service;
 
 import no.task.registrationform.dao.UserInfoEntity;
 import no.task.registrationform.dao.UserInfoRepository;
-import no.task.registrationform.model.NettBureauRequest;
+import no.task.registrationform.model.RegRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ public class UserInfoService {
     @Autowired
     private UserInfoRepository userRepository;
 
-    public UserInfoEntity saveUser(NettBureauRequest request) {
+    public UserInfoEntity saveUser(RegRequest request) {
         UserInfoEntity entity = new UserInfoEntity();
         entity.setFirstName(request.getFirstName());
         entity.setLastName(request.getLastName());

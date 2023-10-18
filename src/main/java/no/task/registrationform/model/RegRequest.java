@@ -8,7 +8,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class NettBureauRequest {
+public class RegRequest {
 
     @NotEmpty
     private String firstName;
