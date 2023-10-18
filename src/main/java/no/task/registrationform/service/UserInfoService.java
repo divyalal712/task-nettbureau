@@ -1,8 +1,8 @@
-package no.nettbureau.task.nettbureautask.service;
+package no.task.registrationform.service;
 
-import no.nettbureau.task.nettbureautask.dao.UserInfoEntity;
-import no.nettbureau.task.nettbureautask.dao.UserInfoRepository;
-import no.nettbureau.task.nettbureautask.model.NettBureauRequest;
+import no.task.registrationform.dao.UserInfoEntity;
+import no.task.registrationform.dao.UserInfoRepository;
+import no.task.registrationform.model.NettBureauRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

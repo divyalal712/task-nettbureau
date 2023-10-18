@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask.model;
+package no.task.registrationform.model;
 
 import jakarta.validation.constraints.*;
 import lombok.Getter;

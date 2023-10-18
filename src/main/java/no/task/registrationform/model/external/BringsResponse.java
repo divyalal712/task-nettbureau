@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask.model.external;
+package no.task.registrationform.model.external;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask.config;
+package no.task.registrationform.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

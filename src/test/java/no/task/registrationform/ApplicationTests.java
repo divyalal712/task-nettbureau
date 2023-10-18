@@ -1,10 +1,10 @@
-package no.nettbureau.task.nettbureautask;
+package no.task.registrationform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NettbureauTaskApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,5 +1,3 @@
-# Task-Nettbureau
-
 
 This  application gives you a basic user registration form that receives user data and stores this on a server.
 And the server does some sort of validations internally and using an external API. The API  in the server side validates

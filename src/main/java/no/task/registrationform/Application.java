@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask;
+package no.task.registrationform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration;
@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class})
-public class NettbureauTaskApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NettbureauTaskApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 	@Bean
 	public RestTemplate restTemplate() {

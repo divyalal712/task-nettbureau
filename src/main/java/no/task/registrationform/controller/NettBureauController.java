@@ -1,9 +1,9 @@
-package no.nettbureau.task.nettbureautask.controller;
+package no.task.registrationform.controller;
 
 import jakarta.validation.Valid;
-import no.nettbureau.task.nettbureautask.model.NettBureauRequest;
-import no.nettbureau.task.nettbureautask.service.PostalCodeService;
-import no.nettbureau.task.nettbureautask.service.UserInfoService;
+import no.task.registrationform.model.NettBureauRequest;
+import no.task.registrationform.service.PostalCodeService;
+import no.task.registrationform.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

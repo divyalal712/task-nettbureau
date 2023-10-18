@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask.dao;
+package no.task.registrationform.dao;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

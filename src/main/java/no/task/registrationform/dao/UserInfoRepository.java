@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask.dao;
+package no.task.registrationform.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

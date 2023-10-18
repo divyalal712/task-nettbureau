@@ -1,4 +1,4 @@
-package no.nettbureau.task.nettbureautask.exception;
+package no.task.registrationform.exception;
 
 import org.springframework.http.HttpStatusCode;
 

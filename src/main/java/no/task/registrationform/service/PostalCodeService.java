@@ -1,7 +1,7 @@
-package no.nettbureau.task.nettbureautask.service;
+package no.task.registrationform.service;
 
-import no.nettbureau.task.nettbureautask.exception.BringsException;
-import no.nettbureau.task.nettbureautask.model.external.BringsResponse;
+import no.task.registrationform.exception.BringsException;
+import no.task.registrationform.model.external.BringsResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
